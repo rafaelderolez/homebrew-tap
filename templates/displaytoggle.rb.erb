@@ -1,0 +1,15 @@
+cask "displaytoggle" do
+  version "<%= version %>"
+  sha256 "<%= sha256 %>"
+
+  url "https://github.com/rafaelderolez/DisplayToggle/releases/download/v#{version}/DisplayToggle-#{version}.zip"
+  name "DisplayToggle"
+  desc "Toggle external displays from the menu bar"
+  homepage "https://github.com/rafaelderolez/DisplayToggle"
+
+  depends_on macos: ">= :ventura"
+
+  app "DisplayToggle.app"
+
+  zap trash: "~/Library/Preferences/dev.derolez.DisplayToggle.plist"
+end
