@@ -27,10 +27,4 @@ To remove it, turn displays back on, disable Launch at Login, quit the app, then
 brew uninstall --cask rafaelderolez/tap/displaytoggle
 ```
 
-## Maintaining a cask
-
-The DisplayToggle repository contains the build, signing, notarization, and release instructions. After publishing a release, run its `scripts/update-tap.sh` script against this checkout. It verifies the published archive and writes `Casks/displaytoggle.rb` using the template in this repository.
-
-Review the generated cask, run Homebrew's style/audit checks, test installation, then commit and push it.
-
 This is a personal tap, maintained independently of Homebrew's official catalog.
