@@ -1,6 +1,6 @@
 cask "displaytoggle" do
-  version "1.0.0"
-  sha256 "8212b1f766597f7e7253aedeb6ac883edf071b363ac6163dfe4876ce25120dc5"
+  version "1.0.1"
+  sha256 "c7b3b901ea97b4482b66517d7f931622c0df77b49c84a3ebf3823fabb4e712a4"
 
   url "https://github.com/rafaelderolez/DisplayToggle/releases/download/v#{version}/DisplayToggle-#{version}.zip"
   name "DisplayToggle"
